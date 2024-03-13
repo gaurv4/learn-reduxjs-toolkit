@@ -10,8 +10,16 @@ const counter = () => {
             <div className="flex flex-col gap-7 mt-28 justify-center items-center">
                 <h1 className="text-6xl">{count}</h1>
                 <div className="flex gap-4">
-                    <button onClick={() => dispatch(increament())} className="border rounded-md py-1 px-3">increment</button>
-                    <button onClick={() => dispatch(decreament())} className="border rounded-md py-1 px-3">decrement</button>
+                    <button 
+                        onClick={() => dispatch(increament())} 
+                        className="border rounded-md py-1 px-3">
+                        increment
+                    </button>
+                    <button 
+                        onClick={() => dispatch(decreament())} 
+                        className="border rounded-md py-1 px-3">
+                        decrement
+                    </button>
                 </div>
             </div>
         </>
